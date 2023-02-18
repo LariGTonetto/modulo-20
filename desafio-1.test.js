@@ -1,7 +1,7 @@
 import {expect} from '@jest/globals';
 import React from "react";
 import renderer from "react-test-renderer";
-import {desafio-1} from "../../Mod20/MDC"
+import {desafio-1} from "../../Mod20/desafio-1"
 
 
 test('This is validated', () => {
