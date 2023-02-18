@@ -1,11 +1,11 @@
 import {expect} from '@jest/globals';
 import React from "react";
 import renderer from "react-test-renderer";
-import indices from "../Mod20/array"
+import indices from "../Mod20/desafio-2"
 
 
 test('This is validated', () => {
-    const tree = renderer.create(<array />).toJSON();
+    const tree = renderer.create(<desafio-2 />).toJSON();
     expect(tree).toMatchSnapshot();
 });
 
